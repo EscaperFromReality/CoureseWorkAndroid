@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.registration.RegistrationFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Create account"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/registerLoginText"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="#fdfdfd"
+        android:hint="Set Login"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:textColorHint="#6a6a6a"
+        android:gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/registerEmailText"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Set Email"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a"
+         />
+
+    <EditText
+        android:id="@+id/registerPasswordText"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Set Password"
+        android:autofillHints="password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a"
+         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="73dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/app_name"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="302dp"
+        android:layout_height="72dp"
+        android:text="Недвижимость Плюс"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+         />
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+         />
+
+</FrameLayout>
