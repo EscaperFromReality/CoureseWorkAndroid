@@ -41,5 +41,6 @@ class RegistrationActivity : AppCompatActivity() {
                 userPassword.text.clear()
             }
         }
+
     }
 }
