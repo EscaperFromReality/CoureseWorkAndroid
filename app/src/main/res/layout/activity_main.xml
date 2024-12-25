@@ -13,6 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/sand"
         app:layout_constraintBottom_toTopOf="@+id/bottom_nav_menu"
         >
         <androidx.fragment.app.FragmentContainerView
@@ -31,11 +32,12 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/tint"
-        app:menu="@menu/bottom_nav_menu"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        tools:visibility="visible" />
 
 
 

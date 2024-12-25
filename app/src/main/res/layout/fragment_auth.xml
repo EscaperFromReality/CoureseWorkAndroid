@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/sand"
     tools:context=".ui.auth.AuthFragment">
 
     <TextView
@@ -20,7 +21,7 @@
 
     <EditText
         android:id="@+id/loginLoginText"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:autofillHints="username"
@@ -30,11 +31,12 @@
         android:hint="Login"
         android:inputType="text"
         android:textColor="#fdfdfd"
-        android:textColorHint="#6a6a6a" />
+        android:textColorHint="#6a6a6a"
+        android:background="@drawable/rounded_exittext_background"/>
 
     <EditText
         android:id="@+id/loginPasswordText"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginBottom="300dp"
@@ -45,7 +47,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textColor="#fdfdfd"
-        android:textColorHint="#6a6a6a" />
+        android:textColorHint="#6a6a6a"
+        android:background="@drawable/rounded_exittext_background"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -72,6 +75,7 @@
         android:layout_marginEnd="55dp"
         android:layout_marginTop="200dp"
         android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_button"
         android:text="Registration" />
 
     <Button
@@ -82,6 +86,7 @@
         android:layout_marginStart="75dp"
         android:layout_marginTop="200dp"
         android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_button"
         android:text="Login" />
 
 </FrameLayout>

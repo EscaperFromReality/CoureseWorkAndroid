@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
-        //setContentView(R.layout.fragment_auth)
-        setContentView(R.layout.activity_main)
-        setContentView(mBinding.root)
+        setContentView(R.layout.fragment_auth)
+        //setContentView(R.layout.activity_main)
+        //setContentView(mBinding.root)
         //val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         //navController = navHostFragment.navController
         //NavigationUI.setupActionBarWithNavController(this, navController)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets*/
-        val url = "https://www.cian.ru/cat.php?deal_type=rent&engine_version=2"
+        /*val url = "https://www.cian.ru/cat.php?deal_type=rent&engine_version=2"
         val document: Document = Jsoup.connect(url).get()
         val listenings = document.select(".cian-item")
         for (listening: Element in listenings){
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             println("Title:$link")
             println("")
 
-        }
+        }*/
         }
 
     /*override fun onSupportNavigateUp(): Boolean {
