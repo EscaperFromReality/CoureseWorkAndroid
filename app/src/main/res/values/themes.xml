@@ -5,6 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/blue</item>
         <item name="android:windowBackground">@color/sand</item>
+        <!--<item name="android:background">@drawable/border</item>-->
     </style>
 
     <style name="Theme.CoureseWorkAndroid" parent="Base.Theme.CoureseWorkAndroid" />

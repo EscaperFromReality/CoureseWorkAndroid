@@ -6,10 +6,106 @@
     android:background="@color/sand"
     tools:context=".ui.main.MainFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="mainFragment" />
+    <Button
+        android:id="@+id/mainFragButton1"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Уведомления"
+        android:textColor="@color/darkGreen"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Рассчитать ипотеку"
+        android:textColor="@color/darkGreen"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="10dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Оценить квартиру"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="275dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton4"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Мои объявления"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton5"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Заявка на ипотеку"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="142dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton6"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Разместить объявление"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="275dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton7"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Программы скидок"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="10dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton8"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Застраховать ипотеку"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="142dp"
+        android:padding="1dp"
+        />
+    <Button
+        android:id="@+id/mainFragButton9"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rounded_button"
+        android:text="Сдать квартиру"
+        android:textColor="@color/darkGreen"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="275dp"
+        android:padding="10dp"
+        />
+
+
 
 </FrameLayout>

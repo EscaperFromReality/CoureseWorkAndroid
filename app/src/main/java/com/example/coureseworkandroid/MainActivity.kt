@@ -1,19 +1,11 @@
 package com.example.coureseworkandroid
 
+import android.R
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
 import com.example.coureseworkandroid.databinding.ActivityMainBinding
-import androidx.navigation.ui.setupWithNavController
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.NavigationUI
-import org.jsoup.Jsoup
-import org.jsoup.nodes.Document
-import org.jsoup.nodes.Element
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class MainActivity : AppCompatActivity() {
@@ -25,9 +17,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(R.layout.fragment_auth)
+        //setContentView(R.layout.activity_registration)
+        //setContentView(R.layout.fragment_main)
         //setContentView(R.layout.activity_main)
-        //setContentView(mBinding.root)
+        setContentView(mBinding.root)
         //val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         //navController = navHostFragment.navController
         //NavigationUI.setupActionBarWithNavController(this, navController)

@@ -1,0 +1,10 @@
+<!-- res/drawable/border.xml -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <solid android:color="@android:color/transparent"/> <!-- Цвет фона -->
+    <stroke
+        android:width="2dp"/>  <!-- Ширина обводки -->
+    android:color="@color/black"/> <!-- Цвет обводки -->
+    <corners android:radius="10dp"/> <!-- Радиус углов (если нужно) -->
+</shape>

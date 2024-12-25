@@ -22,8 +22,11 @@
             android:layout_height="match_parent"
             android:name="androidx.navigation.fragment.NavHostFragment"
             app:defaultNavHost="true"
+            android:visibility="visible"
+            android:padding="0dp"
             app:navGraph="@navigation/nav_graph"
-            tools:layout="@layout/fragment_auth" />
+            tools:layout="@layout/fragment_auth"
+            />
 
     </FrameLayout>
 
@@ -31,8 +34,10 @@
         android:id="@+id/bottom_nav_menu"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:foregroundGravity="fill"
         android:background="@color/tint"
         android:visibility="visible"
+        android:padding="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
