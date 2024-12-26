@@ -3,22 +3,22 @@
 
     <item
         android:id="@+id/mainFragment"
-        android:title="Main"
+        android:title="Главная"
         android:visible="true"
         android:enabled="true"
         />
     <item android:id="@+id/searchFragment"
-        android:title="Search"
+        android:title="Недвижимость"
         android:visible="true"
         android:enabled="true"
         />
     <item android:id="@+id/messagesFragment"
-        android:title="Messages"
+        android:title="Сообщения"
         android:visible="true"
         android:enabled="true"
         />
     <item android:id="@+id/settingsFragment"
-        android:title="Setings"
+        android:title="Меню"
         android:visible="true"
         android:enabled="true"
         />
